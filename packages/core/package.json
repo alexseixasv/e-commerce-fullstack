@@ -1,0 +1,19 @@
+{
+    "name": "@gstore/core",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup src/index.ts --dts --minify",
+        "dev": "tsup src/index.ts --dts --watch",
+        "test": "jest --watchAll --collectCoverage"
+    },
+    "keywords": [],
+    "author": "Alex Seixas Venancio",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "tsup": "^8.2.4"
+    }
+}
